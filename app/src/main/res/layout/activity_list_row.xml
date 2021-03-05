@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_margin="20dp"
+    android:clickable="true"
+    android:id="@+id/id_card_view">
+
+    <TextView
+        android:id="@+id/id_task_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_marginStart="5dp" />
+
+    <ImageView
+        android:id="@+id/id_img_edit"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="300dp"
+        android:background="#e3f6f6"
+        android:layout_marginTop="-2dp"
+        android:src="@drawable/edit_foreground"
+        android:layout_marginStart="300dp" />
+
+</androidx.cardview.widget.CardView>

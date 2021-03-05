@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:background="#fafafa"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/id_edt_task"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Digite sua tarefa aqui"
+            android:maxLength="52"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/id_btn_save"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:backgroundTint="#3d4852"
+            android:text="SALVAR"
+            android:layout_marginLeft="15dp"/>
+
+        <Button
+            android:id="@+id/id_btn_cancel"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="170dp"
+            android:layout_width="130dp"
+            android:backgroundTint="#3d4852"
+            android:layout_height="wrap_content"
+            android:text="CANCELAR" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
